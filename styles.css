@@ -202,6 +202,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   font-size: var(--ff-size-body);
   text-align: left;
@@ -393,13 +394,8 @@ nav {
 
 .image-showcase img {
   width: 25%;
-
-  transition: transform 100ms ease-in-out;
 }
 
-.image-showcase img:hover {
-  transform: scale(1.1);
-}
 
 /* --- Footer --- */
 footer {
